@@ -36,10 +36,10 @@ function App() {
       </div>
       <div className="form-Wrapper">
         <form className="formData" encType="multipart/form-data">
-          <label for="inputTag" className="selectImage-icon">
+          <label htmlFor="inputTag" className="selectImage-icon">
             Select Image
             <br />
-            <i class="fa fa-2x fa-camera"></i>
+            <i className="fa fa-2x fa-camera"></i>
             <input id="inputTag" type="file" name="images" ref={imageRef} />
           </label>
           <button className="upload-Button" onClick={handleUpload}>
